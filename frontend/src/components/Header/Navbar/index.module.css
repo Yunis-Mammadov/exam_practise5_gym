@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbarParent{
+    background-color: white;
+    height: 18vh;
+    box-shadow: none;
+}
+
+.navbarLinks{
+    position: absolute;
+    gap: 120px;
+    top: 90px;
+    right: 420px;
+}
+
+.headerParent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.headerParent:after{
+    content: "";
+    position:absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 75px;
+    z-index:-1;
+    -moz-box-shadow: 0px 5px 4px #888;
+    -webkit-box-shadow: 0px 5px 4px #888;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.iconAndNumber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.phoneIcon{
+    color: white;
+    background-color:rgb(246,33,75); 
+    padding: 22px 30px;
+    font-size: 20px;
+}

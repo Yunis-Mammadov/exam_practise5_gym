@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.memberParent {
+    height: 54vh;
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(https://preview.colorlib.com/theme/gym/img/callto-bg.jpg.webp);
+    background-repeat: no-repeat;
+    margin-top: 80px;
+}
+
+.memberText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 55vh;
+    text-align: center;
+    gap: 20px;
+    color: white;
+}
+
+.memberH1 {
+    font-size: 40px;
+}
+
+.memberP {
+    font-size: 15px;
+}

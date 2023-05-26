@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.heroParent {
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    object-fit: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(https://preview.colorlib.com/theme/gym/img/header-bg.jpg.webp) fixed;
+}
+
+.heroText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 73vh;
+    text-align: center;
+    gap: 20px;
+    color: white;
+}
+
+.heroH1 {
+    font-size: 50px;
+}
+
+.heroP {
+    font-size: 15px;
+}

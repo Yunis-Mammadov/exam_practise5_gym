@@ -1,0 +1,46 @@
+.gymText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 33vh;
+    text-align: center;
+    gap: 10px;
+    color: black;
+}
+
+.gymH1{
+    font-size: 30px;
+}
+
+.gymP{
+    font-size: 15px;
+    color: rgb(167, 166, 166);
+}
+
+.gymImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card{
+    box-shadow: rgba(233, 47, 230, 0.71) 0px 10px 100px -30px,  rgba(233, 47, 230, 0.71) 0px 30px 60px -10px, rgba(233, 47, 230, 0.71) 0px -2px 6px 0px inset;
+}
+
+.buttonGym{
+    margin-top: 30px;
+    padding: 10px 25px;
+    color: white;
+    background-color: rgb(246,33,75);   
+    border: none; 
+    transition: 0.5s;
+}
+
+.buttonGym:hover{
+    color: black;
+    background-color: transparent;
+    border: 1px solid rgb(246,33,75);
+}

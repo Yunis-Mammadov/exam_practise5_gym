@@ -1,0 +1,54 @@
+.studentsText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 33vh;
+    text-align: center;
+    gap: 10px;
+    color: black;
+}
+
+.studentsH1{
+    font-size: 30px;
+}
+
+.studentsP{
+    font-size: 15px;
+    color: rgb(167, 166, 166);
+}
+
+.studentsImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.buttonStudents{
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+    padding: 12px 50px;
+    color: white;
+    background-color: rgb(246,33,75);   
+    border: none; 
+    cursor: pointer;
+}
+
+.card{
+    box-shadow: none;
+    transition: 0.5s;
+}
+
+.card img:hover{
+    transform: scale(1.1)
+}
+
+.studentPrice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
